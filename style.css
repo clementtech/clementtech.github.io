@@ -22,6 +22,12 @@
     text-align: center; }
 
   h1 {
-    font-size: 2em; } }
+    font-size: 2em; }
+
+  nav div a {
+    text-decoration: none;
+    color: wheat;
+    padding-left: 3px;
+    padding-right: 3px; } }
 
 /*# sourceMappingURL=style.css.map */

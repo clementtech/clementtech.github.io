@@ -19,7 +19,6 @@ $background-color: rgb(54, 124, 52);
 
   nav {
     div {
-
       a {
         text-decoration: none;
         color: $color;
@@ -39,5 +38,15 @@ $background-color: rgb(54, 124, 52);
 
   h1 {
     font-size: 2em;
+  }
+  nav {
+    div {
+      a {
+        text-decoration: none;
+        color: $color;
+        padding-left: 3px;
+        padding-right: 3px;
+      }
+    }
   }
 }
