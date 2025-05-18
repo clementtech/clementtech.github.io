@@ -1,0 +1,21 @@
+@media (min-width: 1200px) {
+  body {
+    background-color: #367c34;
+    color: wheat;
+    text-align: center; }
+
+  h1 {
+    font-size: 10em; }
+
+  p {
+    font-size: 3em; } }
+@media (max-width: 600px) {
+  body {
+    background-color: #367c34;
+    color: wheat;
+    text-align: center; }
+
+  h1 {
+    font-size: 2em; } }
+
+/*# sourceMappingURL=style.css.map */
