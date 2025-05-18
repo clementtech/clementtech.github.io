@@ -16,6 +16,18 @@ $background-color: rgb(54, 124, 52);
   p {
     font-size: 1em;
   }
+
+  nav {
+    div {
+
+      a {
+        text-decoration: none;
+        color: $color;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
 }
 
 @media (max-width: 600px) {
@@ -28,5 +40,4 @@ $background-color: rgb(54, 124, 52);
   h1 {
     font-size: 2em;
   }
-
 }

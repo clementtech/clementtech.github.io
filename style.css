@@ -8,7 +8,13 @@
     font-size: 8em; }
 
   p {
-    font-size: 1em; } }
+    font-size: 1em; }
+
+  nav div a {
+    text-decoration: none;
+    color: wheat;
+    padding-left: 20px;
+    padding-right: 20px; } }
 @media (max-width: 600px) {
   body {
     background-color: #367c34;
