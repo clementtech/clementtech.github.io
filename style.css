@@ -1,9 +1,9 @@
-@media (min-width: 1200px) {
-  body {
-    background-color: #367c34;
-    color: wheat;
-    text-align: center; }
+body {
+  background-color: #367c34;
+  color: wheat;
+  text-align: center; }
 
+@media (min-width: 1200px) {
   h1 {
     font-size: 8em; }
 
@@ -16,11 +16,6 @@
     padding-left: 20px;
     padding-right: 20px; } }
 @media (max-width: 600px) {
-  body {
-    background-color: #367c34;
-    color: wheat;
-    text-align: center; }
-
   h1 {
     font-size: 2em; }
 
@@ -29,5 +24,19 @@
     color: wheat;
     padding-left: 3px;
     padding-right: 3px; } }
+form {
+  text-align: center;
+  padding: 80px;
+  border: 2px black; }
+
+.search {
+  width: 500px;
+  height: 50px;
+  border-radius: 25px; }
+
+.submit {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px; }
 
 /*# sourceMappingURL=style.css.map */

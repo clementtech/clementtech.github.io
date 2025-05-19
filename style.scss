@@ -2,12 +2,13 @@ $color: wheat;
 $text-align: center;
 $background-color: rgb(54, 124, 52);
 
-@media (min-width: 1200px) {
   body {
     background-color: $background-color;
     color: $color;
     text-align: $text-align;
   }
+
+@media (min-width: 1200px) {
 
   h1 {
     font-size: 8em;
@@ -30,11 +31,7 @@ $background-color: rgb(54, 124, 52);
 }
 
 @media (max-width: 600px) {
-  body {
-    background-color: $background-color;
-    color: $color;
-    text-align: $text-align;
-  }
+
 
   h1 {
     font-size: 2em;
@@ -51,3 +48,20 @@ $background-color: rgb(54, 124, 52);
   }
 }
 
+form {
+  text-align: $text-align;
+  padding: 80px;
+  border: 2px black;
+}
+
+.search {
+  width: 500px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+.submit {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+}
