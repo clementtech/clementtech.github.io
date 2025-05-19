@@ -1,17 +1,21 @@
 $color: wheat;
 $text-align: center;
 $background-color: rgb(54, 124, 52);
+$background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/1679.jpg);
+$font-family: Arial;
 
-  body {
-    background-color: $background-color;
-    color: $color;
-    text-align: $text-align;
-  }
+body {
+  // background-color: $background-color;
+  color: $color;
+  text-align: $text-align;
+  background-image: $background-image;
+  background-size: cover;
+}
 
 @media (min-width: 1200px) {
-
   h1 {
     font-size: 8em;
+    font-family: $font-family;
   }
 
   p {
@@ -31,10 +35,9 @@ $background-color: rgb(54, 124, 52);
 }
 
 @media (max-width: 600px) {
-
-
   h1 {
     font-size: 2em;
+    font-family: $font-family;
   }
   nav {
     div {
