@@ -35,7 +35,9 @@ form {
 .search {
   width: 500px;
   height: 50px;
-  border-radius: 25px; }
+  border-radius: 25px;
+  background-color: transparent;
+  color: white; }
 
 .submit {
   width: 150px;
