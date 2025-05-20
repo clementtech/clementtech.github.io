@@ -1,7 +1,7 @@
 body {
-  color: wheat;
+  color: white;
   text-align: center;
-  background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/1679.jpg);
+  background-image: url(https://a.ltrbxd.com/resized/alternative-backdrop/1/1/6/4/1/2/5/tmdb/onxOihBXwenI3ZjSM8ivaLx0gt2-1200-1200-675-675-crop-000000.jpg?v=e7d2b5b360);
   background-size: cover; }
 
 @media (min-width: 1200px) {
@@ -14,7 +14,7 @@ body {
 
   nav div a {
     text-decoration: none;
-    color: wheat;
+    color: white;
     padding-left: 20px;
     padding-right: 20px; } }
 @media (max-width: 600px) {
@@ -24,7 +24,7 @@ body {
 
   nav div a {
     text-decoration: none;
-    color: wheat;
+    color: white;
     padding-left: 3px;
     padding-right: 3px; } }
 form {
