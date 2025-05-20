@@ -2,6 +2,9 @@ $color: white;
 $text-align: center;
 $background-image: url(https://www.rover.com/blog/wp-content/uploads/2018/11/golden-retriever-2061715_1920.jpg);
 $font-family: Arial;
+$border-radius: 25px;
+$height: 50px;
+$background-color: transparent;
 
 body {
   // background-color: $background-color;
@@ -31,6 +34,20 @@ body {
       }
     }
   }
+
+  .search {
+    width: 500px;
+    height: $height;
+    border-radius: $border-radius;
+    background-color: $background-color;
+    color: $color;
+  }
+
+  .submit {
+    width: 150px;
+    height: $height;
+    border-radius: $border-radius;
+  }
 }
 
 @media (max-width: 600px) {
@@ -38,6 +55,11 @@ body {
     font-size: 2em;
     font-family: $font-family;
   }
+
+  p {
+    font-size: 0.7em;
+  }
+
   nav {
     div {
       a {
@@ -48,6 +70,19 @@ body {
       }
     }
   }
+  .search {
+  width: 300px;
+  height: $height;
+  border-radius: $border-radius;
+  background-color: $background-color;
+  color: $color;
+}
+
+.submit {
+  width: 150px;
+  height: $height;
+  border-radius: $border-radius;
+}
 }
 
 form {
@@ -56,16 +91,4 @@ form {
   border: 2px black;
 }
 
-.search {
-  width: 500px;
-  height: 50px;
-  border-radius: 25px;
-  background-color: transparent;
-  color: $color;
-}
 
-.submit {
-  width: 150px;
-  height: 50px;
-  border-radius: 25px;
-}
