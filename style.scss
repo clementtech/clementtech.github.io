@@ -1,5 +1,14 @@
 body {
-  background-color: bisque;
+  background-color: #78909c;
   text-align: center;
+  color: #eceff1;
+}
+
+:root {
+  /* System tokens */
+  --md-sys-color-surface-container-highest: #eceff1;
+  --md-dialog-headline-color: #eceff1;
+  --md-sys-typescale-body-medium: system-ui 16px/24px;
+  --md-sys-typescale-headline-small: system-ui 24px/32px;
 
 }
