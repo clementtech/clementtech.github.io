@@ -6,8 +6,8 @@
   "description": "Cool Digital Name card made by Clement",
   "lang": "en",
   "dir": "auto",
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "theme_color": "#78909c",
+  "background_color": "#78909c",
   "orientation": "any",
   "icons": [
     {
