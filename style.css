@@ -16,6 +16,10 @@ body {
   color: #78909c;
 }
 
+.link a {
+  text-decoration: none;
+}
+
 img {
   width: 80px;
   height: 80px;
