@@ -3,7 +3,9 @@ body {
   text-align: center;
   color: #eceff1;
   font-family: Roboto;
-  padding: 2em;
+  margin: 0px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .link button {
