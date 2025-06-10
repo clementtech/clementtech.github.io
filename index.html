@@ -9,16 +9,18 @@
     <title>hej, clement</title>
     <link rel="icon" href="assets/profile.webp" type="image/webp" />
     <script
-      data-collect-dnt="true"
       async
-      src="https://scripts.simpleanalyticscdn.com/latest.js"
+      src="https://www.googletagmanager.com/gtag/js?id=G-Y3Q0223W5W"
     ></script>
-    <noscript
-      ><img
-        src="https://queue.simpleanalyticscdn.com/noscript.gif?collect-dnt=true"
-        alt=""
-        referrerpolicy="no-referrer-when-downgrade"
-    /></noscript>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Y3Q0223W5W");
+    </script>
     <script>
       navigator.serviceWorker.register("service-worker.js");
     </script>
