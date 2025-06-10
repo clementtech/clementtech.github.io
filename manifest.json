@@ -35,6 +35,10 @@
     {
       "platform": "windows",
       "url": "https://clementtech.github.io/"
+    },
+    {
+      "platform": "play",
+      "url": "https://clementtech.github.io/"
     }
   ],
   "prefer_related_applications": false,
