@@ -32,15 +32,23 @@ img {
   height: 80px;
 }
 
-.box {
-  padding: 1.5em;
-  width: 450px;
-  height: 750px;
-  background-color: #b0bec5;
-  border-radius: 50px;
-  margin: auto;
+@media (min-width: 600px) {
+  .box {
+    padding: 1.5em;
+    width: 450px;
+    height: 750px;
+    background-color: #b0bec5;
+    border-radius: 50px;
+    margin: auto;
+  }
 }
 
+@media (max-width: 1200px) {
+  body {
+    background-color: #b0bec5;
+  }
+   
+}
 .profile {
   margin: 10px;
   border-radius: 50%;
