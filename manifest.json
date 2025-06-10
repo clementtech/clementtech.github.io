@@ -25,10 +25,10 @@
   ],
   "screenshots": [
     {
-      "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+      "src": "assets/screenshot.webp",
       "sizes": "2880x1800",
       "type": "image/png",
-      "description": "A screenshot of the home page"
+      "description": "Screenshot of how the name card will look like!"
     }
   ],
   "related_applications": [
