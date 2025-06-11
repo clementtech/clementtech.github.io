@@ -16,6 +16,7 @@ body {
   padding: 1.5em;
   margin: 10px;
   color: #78909c;
+  transition: background 0.3s;
 }
 
 .link a {
