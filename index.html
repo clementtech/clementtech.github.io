@@ -1,73 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-      lang="en"
-    />
-    <title>hej, clement</title>
+    <meta charset="utf-8" />
+    <title>Clement's Blog</title>
     <link rel="icon" href="assets/profile.webp" type="image/webp" />
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-Y3Q0223W5W"
     ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-Y3Q0223W5W");
-    </script>
-    <script>
-      navigator.serviceWorker.register("service-worker.js");
-    </script>
+    <link rel="stylesheet" type="text/css" href="./main.css" />
     <link rel="manifest" href="manifest.json" />
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <div class="box">
-      <div class="navigate">
-        <button>
-          <img src="assets/qr.webp" alt="QR Code" />
-        </button>
-      </div>
-      <h1>Hej, Clement!</h1>
-
-      <img class="profile" src="assets/profile.webp" alt="Profile Picture" />
-
-      <div class="link">
-        <a href="https://linkedin.com/in/clementtech/" target="_blank">
-          <button>
-            <img src="assets/brands-linkedin.svg" alt="LinkedIn Logo" />
-            <h3>LinkedIn</h3>
-          </button>
-        </a>
-
-        <a href="https://github.com/clementtech" target="_blank">
-          <button>
-            <img src="assets/brands-github.svg" alt="GitHub Logo" />
-            <h3>GitHub</h3>
-          </button>
-        </a>
-
-        <br />
-
-        <a href="https://www.instagram.com/clementsubway/" target="_blank">
-          <button>
-            <img src="assets/brands-instagram.svg" alt="Instagram Logo" />
-            <h3>Instagram</h3>
-          </button>
-        </a>
-
-        <a href="https://discord.gg/juNrTRtg" target="_blank">
-          <button>
-            <img src="assets/brands-discord.svg" alt="Discord Logo" />
-            <h3>Discord</h3>
-          </button>
-        </a>
+    <div class="container-fluid content">
+      <div id="project-title-row" class="animated container">
+        <h1 id="project-title">Clement Chong</h1>
+        <div class="cool_url">
+          <a href="https://clementtech.github.io/DName/" target="_blank"
+            >Digital Name Card</a
+          >
+          <a href="https://clementtech.github.io/DName/" target="_blank"
+            >CTF Related</a
+          >
+          <a href="https://clementtech.github.io/DName/" target="_blank"
+            >Blog</a
+          >
+          <a href="https://clementtech.github.io/DName/" target="_blank">CV</a>
+        </div>
       </div>
     </div>
   </body>
