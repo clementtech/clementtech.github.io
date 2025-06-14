@@ -99,3 +99,32 @@ body {
   color: white;
   text-decoration: none;
 }
+
+.cutie {
+  text-align: center;
+}
+
+.cutie img {
+  width: 350px;
+  height: 350px;
+  max-width: 90vw;
+  max-height: 60vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .cutie img {
+    width: 220px;
+    height: 220px;
+    max-width: 80vw;
+    max-height: 50vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cutie img {
+    width: 140px;
+    height: 140px;
+    max-width: 90vw;
+    max-height: 40vw;
+  }
+}
